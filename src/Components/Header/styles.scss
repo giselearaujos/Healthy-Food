@@ -11,7 +11,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center; 
-            height: 30vh;           
+            height: 35vh;           
         }
 
         &__title {
@@ -28,8 +28,8 @@
         &__nav {
             display: flex;
             justify-content: space-around;
-                       
-            width: 46%;
+            align-items: center;                       
+            width: 38%;
             padding: 12px;
 
             @media (max-width: 999px){
@@ -37,13 +37,18 @@
                 flex-direction: column;
                 justify-content:center;
                 align-items: center;
+                width: 47%;
             }
 
             &__li {
                 color: $white; 
-                font-size: 18px;
+                font-size: 16px;
                 padding-bottom: 5px;  
-                cursor: pointer;              
+                cursor: pointer;   
+                
+                @media (max-width: 999px){
+                    padding-bottom: 10px;
+                }
             }
         }
 
