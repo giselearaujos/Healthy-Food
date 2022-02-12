@@ -1,0 +1,54 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $one;
+        height: 10vh;
+
+        @media (max-width: 999px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            height: 30vh;           
+        }
+
+        &__title {
+            font-size: 30px;
+            font-weight: 700;
+            color: $white;
+            cursor: pointer;
+
+            @media (max-width: 999px) {
+                font-size: 30px;
+            }
+        }
+
+        &__nav {
+            display: flex;
+            justify-content: space-around;
+                       
+            width: 46%;
+            padding: 12px;
+
+            @media (max-width: 999px){
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+            }
+
+            &__li {
+                color: $white; 
+                font-size: 18px;
+                padding-bottom: 5px;  
+                cursor: pointer;              
+            }
+        }
+
+        
+    }
+
+    
+}

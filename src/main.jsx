@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './scss/Main.scss';
-import App from './App';
+
+import Header from './Components/Header/index';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    
-
-    <App />
-    
+    <Header />
   </React.StrictMode>,
   document.getElementById('root')
 )
