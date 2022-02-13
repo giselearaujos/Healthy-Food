@@ -1,6 +1,7 @@
 .section {
-    margin-top: 4%; 
+    margin-top: 9%; 
     background-color: $background-secondary;
+    width: 100%;
 
     @media (min-width: 1024px) and (max-width: 1200px){
         margin-top: 18%;        
@@ -15,10 +16,118 @@
     }
 
     @media (min-width: 320px) and (max-width: 480px){
-        margin-top: -17%;        
+        margin-top: -11%;      
     }
 
     @media (min-width: 200px) and (max-width: 321px){
         margin-top: -55%;   
     }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        @media (min-width: 1024px) and (max-width: 1200px){
+            display: flex;
+            flex-direction: row;        
+        } 
+    
+        @media (min-width: 769px) and (max-width: 1024px){
+            display: flex;
+            flex-direction: row;         
+        }
+
+        @media (min-width: 581px) and (max-width: 768px){
+            display: flex;
+            flex-direction: row;        
+        }
+        
+        @media (min-width: 481px) and (max-width: 580px){
+            display: flex;
+            flex-direction: column;        
+        }
+    
+        @media (min-width: 320px) and (max-width: 480px){
+            display: flex;
+            flex-direction: column;       
+        }
+    
+        @media (min-width: 200px) and (max-width: 321px){
+            display: flex;
+            flex-direction: column;   
+        }
+
+        &__card {
+            display: flex;
+            box-shadow: 0 3px 10px #00000033;
+            border-radius: 5px;
+            width: 33%;
+            height: 15%;
+            margin: 5px;            
+            
+            @media (min-width: 481px) and (max-width: 768px){
+                width: 43%;                      
+            }
+
+            @media (min-width: 481px) and (max-width: 580px){
+                width: 67%;        
+            }
+        
+            @media (min-width: 320px) and (max-width: 480px){
+                width: 95%;                    
+            }
+        
+            @media (min-width: 200px) and (max-width: 321px){
+                width: 97%;  
+            }
+            
+            &__img {
+                object-fit: cover; 
+                width: 50%;                
+            }
+
+            &__left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 43%;                
+                padding: 15px;
+                background-color: $white;                                    
+
+                &__description {
+                    width: 70%;
+                    color: $title;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding-bottom: 5px;
+
+                    @media (min-width: 769px) and (max-width: 1024px){
+                        font-size: 17px;
+                    }
+                    
+                    @media (min-width: 481px) and (max-width: 768px){
+                        font-size: 18px;                                              
+                    }
+                
+                    @media (min-width: 481px) and (max-width: 580px){
+                        font-size: 20px;                             
+                    }
+                
+                    @media (min-width: 320px) and (max-width: 480px){
+                        font-size: 17px;                                            
+                    }
+                
+                    @media (min-width: 200px) and (max-width: 321px){
+                        font-size: 13px; 
+                    }
+                    
+                }
+            }  
+    
+        }
+    }
+
 }

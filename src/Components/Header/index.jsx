@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../Button/index';
 
 const Header = () => {
   return (
@@ -9,7 +8,7 @@ const Header = () => {
         <li className="header__container__nav__li">HEALTHY RECIPES</li>
         <li className="header__container__nav__li">BLOG</li>
         <li className="header__container__nav__li">JOIN</li>
-        <Button text="REGISTER" />
+        <button className="header__container__nav__li__btn">Register</button>
       </ul>
     </header>
   )
