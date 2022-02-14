@@ -7,6 +7,7 @@ import Home from './Components/Home/index';
 import MainCardFood from './Components/MainCardFood/index';
 import MainServices from './Components/MainServices/index';
 import MainCardBlog from './Components/MainCardBlog/index';
+import MainSectionEnd from './Components/MainSectionEnd/index';
 
 
 
@@ -17,6 +18,7 @@ ReactDOM.render(
     <MainCardFood />
     <MainServices />
     <MainCardBlog />
+    <MainSectionEnd />
   </React.StrictMode>,
   document.getElementById('root')
 )
