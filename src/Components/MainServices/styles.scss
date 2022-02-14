@@ -1,0 +1,100 @@
+.service {
+    width: 100%;
+    display: flex;  
+    
+    &__img {
+        width: 50%;
+
+        @media  (max-width: 1200px){
+            display: none;        
+        } 
+    }
+    
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding-top: 4%;
+
+        @media (min-width: 1025px) and (max-width: 1200px){            
+            text-align: center;  
+            padding-top: 3%; 
+            width: 100%;    
+        } 
+        
+        @media (min-width: 769px) and (max-width: 1024px){
+            text-align: center;  
+            padding-top: 3%; 
+            width: 100%; 
+        }
+        
+        &__title {
+            color: $title;
+            font-size: 40px;
+            font-weight: 700;        
+            padding: 5px 0px;       
+            
+            @media (min-width: 1025px) and (max-width: 1200px){
+                font-size: 30px;       
+            } 
+            
+            @media (min-width: 769px) and (max-width: 1024px){
+                font-size: 28px;        
+            }
+            
+            @media (min-width: 481px) and (max-width: 768px){
+                font-size: 25px;       
+            }
+            
+            @media (min-width: 320px) and (max-width: 480px){
+                font-size: 25px;        
+            }
+            
+            @media (min-width: 200px) and (max-width: 321px){
+                font-size: 22px;   
+            }
+        }
+        
+        &__subtitle {            
+            color: $sub-title;
+            font-size: 20px;
+            font-weight: 500;        
+            margin: 30px 0px;
+            width: 70%;
+
+            @media (min-width: 1025px) and (max-width: 1200px){
+                text-align: justify;
+                margin: 8px 0px;
+                width: 70%;     
+            }             
+        
+            @media (min-width: 769px) and (max-width: 1024px){
+                text-align: justify; 
+                margin: 8px 0px;
+                width: 70%;                     
+            }
+            
+            @media (min-width: 481px) and (max-width: 768px){
+                text-align: justify; 
+                margin: 5px 0px;
+                width: 70%;         
+            }
+        
+            @media (min-width: 320px) and (max-width: 480px){
+                text-align: justify; 
+                margin: 6px 0px;
+                width: 70%;         
+            }
+        
+            @media (min-width: 200px) and (max-width: 321px){
+                text-align: justify; 
+                margin: 6px 0px;
+                width: 70%;
+            }
+        }
+        
+
+    }
+}

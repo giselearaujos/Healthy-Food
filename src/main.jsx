@@ -5,6 +5,7 @@ import './scss/Main.scss';
 import Header from './Components/Header/index';
 import Home from './Components/Home/index';
 import MainCardFood from './Components/MainCardFood/index';
+import MainServices from './Components/MainServices/index';
 
 
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Header />
     <Home />
     <MainCardFood />
+    <MainServices />
   </React.StrictMode>,
   document.getElementById('root')
 )
