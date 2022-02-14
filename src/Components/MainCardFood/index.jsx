@@ -20,28 +20,36 @@ const MainCardFood = () => {
                 <div className="section__wrapper__card">
                     <img className="section__wrapper__card__img" src={CardFood1} />
                     <div className="section__wrapper__card__left">
-                        <div className="section__wrapper__card__left__description">Broccoli Salad with Bacon</div>
+                        <div className="section__wrapper__card__left__description">
+                            Broccoli Salad with Bacon
+                        </div>
                         <Button text="See Recipe"/>
                     </div>
                 </div>
                 <div className="section__wrapper__card">
                     <img className="section__wrapper__card__img" src={CardFood2} />
                     <div className="section__wrapper__card__left">
-                        <div className="section__wrapper__card__left__description">Broccoli Salad with Bacon</div>
+                        <div className="section__wrapper__card__left__description">
+                            Classic Beef Burgers
+                        </div>
                         <Button text="See Recipe"/>
                     </div>
                 </div>
                 <div className="section__wrapper__card">
                     <img className="section__wrapper__card__img" src={CardFood3} />
                     <div className="section__wrapper__card__left">
-                        <div className="section__wrapper__card__left__description">Broccoli Salad with Bacon</div>
+                        <div className="section__wrapper__card__left__description">
+                            Classic Potato Salad
+                        </div>
                         <Button text="See Recipe"/>
                     </div>
                 </div>
                 <div className="section__wrapper__card">
                     <img className="section__wrapper__card__img" src={CardFood4} />
                     <div className="section__wrapper__card__left">
-                        <div className="section__wrapper__card__left__description">Broccoli Salad with Bacon</div>
+                        <div className="section__wrapper__card__left__description">
+                            Cherry Cobbler on the Grill
+                        </div>
                         <Button text="See Recipe"/>
                     </div>
                 </div>
