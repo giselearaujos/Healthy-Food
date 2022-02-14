@@ -9,16 +9,16 @@
             display : flex;
             justify-content: center;
             align-items: center;
-            height: 27vh;
+            height: 25vh;
         }  
         
         @media (min-width: 320px) and (max-width: 480px){
-            height: 50vh;            
+            height: 33vh;            
         }
 
         @media (min-width: 200px) and (max-width: 321px){
             width: 100vw;
-            height: 59vh;         
+            height: 58vh;         
         }
 
 
