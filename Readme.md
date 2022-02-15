@@ -1,5 +1,6 @@
 # 🚀  Desafio Healthy Food 🚀 
 ## 🎯 Sobre o Healthy Food
+
 Desenvolver um site  utilizando toda a estrutura do React.<br/>
 Desenvolver a responsividade.<br/>
 Desenvolver tela de Cadastro.<br/>
@@ -7,6 +8,7 @@ Utilizar API dos correios e preencher campos automaticamente.<br/>
 <br>
 
 <h2>🎯 Status</h2>
+
 <ul>
   <li>✔️ Criar uma aplicação ReactJs</li>
   <li>✔️ Rodar na web</li>
@@ -17,7 +19,7 @@ Utilizar API dos correios e preencher campos automaticamente.<br/>
 </ul>
 <br>
 
-## Tecnologias
+## 🎯 Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
@@ -26,9 +28,19 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 - 🔨 [SASS](https://sass-lang.com/)
 - 🔨 [React Router Dom](https://reactrouter.com/)
 - 🔨 [React Hook Form](https://www.react-hook-form.com)
+- 🔨 [ViaCEP](https://viacep.com.br/)
 <br>
 
-## Instalação e uso
+## 🎯 Site da Aplicação
+
+- [Healthy Food](https://healthy-food-cg4f14vze-giselearaujos.vercel.app/)
+<br />
+
+## 🎯 Repositório
+
+- [Healthy Food](https://github.com/giselearaujos/Healthy-Food)
+
+## 🎯 Instalação e uso
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
@@ -47,4 +59,5 @@ npm rum dev
 <br>
 
 <h2>🎯 Contato:</h2>
+
 <a href="https://www.linkedin.com/in/gisele-araujo-silva/">Gisele Araujo Silva</a>
