@@ -1,41 +1,30 @@
 # 🚀  Desafio Healthy Food 🚀 
-
-## Sumário
-
-🎯[Sobre Healthy Food](#Sobre-o-Frontend-Challenge)
-
-🎯[Missão](#missão)
-
-🎯[Tecnologias](#tecnologias)
-
-🎯[Instalação e uso](#instalação-e-uso)
-<br>
-
-## 🎯Sobre o Healthy Food
+## 🎯 Sobre o Healthy Food
 Desenvolver um site  utilizando toda a estrutura do React.
 Desenvolver a responsividade.
 Desenvolver tela de Cadastro.
 Utilizar API dos correios e preencher campos automaticamente.
 <br>
 
-## 🎯Status
-✔️ Criar uma aplicação ReactJs
-✔️ Rodar na web
-✔️ Responsividade
-✔️ Utilizar API dos correios
-✔️ Repositório Github
-✔️ Hospedagem
+<h2>🎯 Status</h2>
+<ul>
+  <li>✔️ Criar uma aplicação ReactJs</li>
+  <li>✔️ Rodar na web</li>
+  <li>✔️ Responsividade</li>
+  <li>✔️ Utilizar API dos correios</li>
+  <li>✔️ Repositório Github</li>
+  <li>✔️ Hospedagem</li>
+</ul>
 <br>
-
 ## Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
-- [ViteJs](https://vitejs.dev/)
-- [ReactJs](https://pt-br.reactjs.org/)
-- [SASS](https://sass-lang.com/)
-- [React Router Dom](https://reactrouter.com/)
-- [React Hook Form](https://www.react-hook-form.com)
+- 🔨 [ViteJs](https://vitejs.dev/)
+- 🔨 [ReactJs](https://pt-br.reactjs.org/)
+- 🔨 [SASS](https://sass-lang.com/)
+- 🔨 [React Router Dom](https://reactrouter.com/)
+- 🔨 [React Hook Form](https://www.react-hook-form.com)
 <br>
 
 ## Instalação e uso
