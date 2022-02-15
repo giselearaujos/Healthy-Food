@@ -33,7 +33,7 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ## 🎯 Site da Aplicação
 
-- [Healthy Food](https://healthy-food-cg4f14vze-giselearaujos.vercel.app/)
+- [Healthy Food](https://healthy-food-five.vercel.app/register)
 <br />
 
 ## 🎯 Repositório
