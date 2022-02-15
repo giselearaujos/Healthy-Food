@@ -1,9 +1,9 @@
 # 🚀  Desafio Healthy Food 🚀 
 ## 🎯 Sobre o Healthy Food
-Desenvolver um site  utilizando toda a estrutura do React.
-Desenvolver a responsividade.
-Desenvolver tela de Cadastro.
-Utilizar API dos correios e preencher campos automaticamente.
+Desenvolver um site  utilizando toda a estrutura do React.<br/>
+Desenvolver a responsividade.<br/>
+Desenvolver tela de Cadastro.<br/>
+Utilizar API dos correios e preencher campos automaticamente.<br/>
 <br>
 
 <h2>🎯 Status</h2>
@@ -16,6 +16,7 @@ Utilizar API dos correios e preencher campos automaticamente.
   <li>✔️ Hospedagem</li>
 </ul>
 <br>
+
 ## Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
