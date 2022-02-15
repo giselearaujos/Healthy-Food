@@ -1,24 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './scss/Main.scss';
+import { BrowserRouter} from 'react-router-dom';
+import Routes from './Routes';
 
 import Header from './Components/Header/index';
-import Home from './Components/Home/index';
-import MainCardFood from './Components/MainCardFood/index';
-import MainServices from './Components/MainServices/index';
-import MainCardBlog from './Components/MainCardBlog/index';
-import MainSectionEnd from './Components/MainSectionEnd/index';
 
+import './scss/Main.scss';
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <Header />
-    <Home />
-    <MainCardFood />
-    <MainServices />
-    <MainCardBlog />
-    <MainSectionEnd />
-  </React.StrictMode>,
+    <Routes />    
+  </BrowserRouter>,
   document.getElementById('root')
 )
