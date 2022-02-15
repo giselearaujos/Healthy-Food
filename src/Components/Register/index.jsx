@@ -40,11 +40,35 @@ const Register = () => {
                 </div> 
                 <div className="register__form__field">                   
                     <input
+                        {...register("email")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="Email"
+                    />
+                </div> 
+                <div className="register__form__field">                   
+                    <input
                         {...register("cpf")}
-                        onBlur={checkCEP}
                         type="text"
                         className="register__form__field__input" 
                         placeholder="CPF"
+                    />
+                </div>                 
+                <div className="register__form__field">                   
+                    <input
+                        {...register("birthday")}
+                        type="date"
+                        className="register__form__field__input" 
+                        placeholder="Birthday"
+                    />
+                </div> 
+                <div className="register__form__field">                   
+                    <input
+                        {...register("cep")}
+                        onBlur={checkCEP}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="CEP"
                     />
                 </div> 
                 <div className="register__form__field">                   
