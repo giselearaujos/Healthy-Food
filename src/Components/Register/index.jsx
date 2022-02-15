@@ -1,52 +1,90 @@
 import React from 'react';
+import { useForm } from 'react-hook-form';
 import Title from '../Title/index';
 import Button from '../Button/index';
 
 const Register = () => {
+
+    const {register, handleSubmit, setValue} = useForm();
+
+    const onSubmit = (e) => {
+        console.log(e);
+    }
+
+    const checkCEP = (e) => {
+        const cep = e.target.value.replace(/\D/g, '');
+        fetch(`https://viacep.com.br/ws/${cep}/json/`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                setValue('street', data.logradouro);
+                setValue('city', data.localidade);
+                setValue('district', data.bairro);
+                setValue('state', data.uf)
+            });
+
+    }
+
+
     return (
         <div className="register">
             <Title title="Register"/>
-            <form className="register__form">
+            <form onSubmit={handleSubmit(onSubmit)} className="register__form">
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="Name"
+                    <input
+                        {...register("name")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="Name"
                     />
                 </div> 
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="CPF"
+                    <input
+                        {...register("cpf")}
+                        onBlur={checkCEP}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="CPF"
                     />
                 </div> 
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="Street"
+                    <input
+                        {...register("street")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="Street"
                     />
                 </div> 
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="Number"
+                    <input
+                        {...register("number")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="Number"
                     />
                 </div> 
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="District"
+                    <input
+                        {...register("district")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="District"
                     />
                 </div>  
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="City"
+                    <input
+                        {...register("city")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="City"
                     />
                 </div>   
                 <div className="register__form__field">                   
-                    <input type="text"
-                     className="register__form__field__input" 
-                     placeholder="State"
+                    <input
+                        {...register("state")}
+                        type="text"
+                        className="register__form__field__input" 
+                        placeholder="State"
                     />
                 </div>      
                 
