@@ -33,7 +33,7 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ## 🎯 Site da Aplicação
 
-- [Healthy Food](https://healthy-food-five.vercel.app/register)
+- [Healthy Food](https://healthy-food-five.vercel.app)
 <br />
 
 ## 🎯 Repositório
