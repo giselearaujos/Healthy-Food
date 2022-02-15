@@ -44,7 +44,7 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-git clone https://github.com/3ddybr/healthy_food.git
+git clone https://github.com/giselearaujos/Healthy-Food.git
 # ou use a opção de download.
 
 # Entre na pasta web com
